@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Missed Changes - Total Rules: 110 -->
+<rules>
+  <rule count="112" name="doubleSideOperators_space"/>
+  <rule count="4" name="LE_rule_WordList_Find_Replace_Followup_1"/>
+  <rule count="25" name="rule-insertThinSpace_SIUnits"/>
+  <rule count="20" name="rule-spacedNdashToEmdash"/>
+  <rule count="1" name="rule-Words with Single Operator-wordspace"/>
+  <rule count="22" name="rule_remove_unwantedSpace_following_refCitation"/>
+  <rule count="12" name="rule_removeSpaceWithOperatorsInParenth"/>
+  <rule count="1" name="UCA_author_pubmed_standard_query_blood"/>
+  <rule count="1" name="UCA_coi_Query_UCACE"/>
+  <rule count="1" name="UCA_permission_standard_query_jbc_mcpro_ACETool_UCA_standard_disclosure_query_ajpa_jmdi_ACETool_UCA_gene_standard_query_jid_xjidi_ACETool_UCA_gene_standard_query_jbc_mcpro_ACETool_UCA_ymse_standard_query_for_units_ACETool_UCA_coi_Query_UCACE"/>
+  <rule count="1" name="UCA_standard_query_hrcr_degree_fhrs_authors_ACETool_UCA_author_pubmed_standard_query_blood"/>
+  <rule count="1" name="UCA_ymse_standard_query_for_units_ACETool_UCA_coi_Query_UCACE"/>
+  <rule count="14" name="use full stop after contraction in text_hglt_with_replace_option"/>
+  <rule count="21" name="insSpaceBetweenClosingAndOpeningParenth"/>
+  <rule count="33" name="LE_insertWordSpaceAfterDot-highlight"/>
+  <rule count="256" name="LE_insertWordSpaceBeforeOpeningParenthesis-highlight"/>
+  <rule count="21" name="LE_rule_Insert_space_between_closing_and_opening_parenthesis"/>
+  <rule count="44" name="LE_toHighlightPunctuationCombinationWithOrWithoutSpace"/>
+  <rule count="14" name="rule-RemoveSpace-PunctSet-1"/>
+  <rule count="53" name="rule_change_Fullout_to_Initials_DotInNamesinRefList_withDotSpace"/>
+  <rule count="30" name="rule_Insert_Dot_after_Initials_in_RefList_withDotSpace"/>
+  <rule count="12" name="rule_removeSpaceWithOperators"/>
+  <rule count="34" name="expandJournalTitle"/>
+  <rule count="9" name="highlight_toReplaceAmpersandWithAnd"/>
+  <rule count="15" name="highlightRomanNumberedListLabelsWithMultipleReplace"/>
+  <rule count="4" name="highlightRomanNumberedListLabelsWithMultipleReplaceInDisplayList"/>
+  <rule count="198" name="LE_SpellCheckBasedonDictionary_AlertForMissingSpace"/>
+  <rule count="65" name="rule-insertThinSpace_CalendarUnits"/>
+  <rule count="1" name="rule-insertThinSpace_multiunits"/>
+  <rule count="20" name="rule-insertThinSpace_TimeUnits"/>
+  <rule count="3" name="SpellCheckBasedonDictionary_AlertForMissingSpace"/>
+  <rule count="327" name="articletitleSentenceCase"/>
+  <rule count="137" name="bookTitleSentenceCaseWithLcAfterColon"/>
+  <rule count="1" name="LE_insertWordSpaceAfterComma-highlight_1"/>
+  <rule count="49" name="PartFigureCitationsShouldBeCapRoman_inLink"/>
+  <rule count="61" name="rule-degreeC-unitspace-1"/>
+  <rule count="29" name="rule-degreeC-unitspace-3"/>
+  <rule count="2" name="rule-degreeK-unitspace-2"/>
+  <rule count="6" name="rule-expandedunitsnopre-unitspace-3"/>
+  <rule count="7" name="rule-Highlight for inserting thin space when there is doubt if the found text is really a unit"/>
+  <rule count="24" name="rule-insertThinSpace_Misc"/>
+  <rule count="121" name="rule-multiunitsabbre-unitspace-2"/>
+  <rule count="13" name="rule-multiunitsabbre-unitspace-2-Highlight"/>
+  <rule count="332" name="rule-singleunit-unitspace-4-lc"/>
+  <rule count="203" name="rule-singleunit-unitspace-5"/>
+  <rule count="417" name="rule-singleunit-unitspace-6"/>
+  <rule count="45" name="rule-unitswithslash-unitspace-2"/>
+  <rule count="51" name="rule-wkdymoyrabbre-unitspace-1"/>
+  <rule count="7" name="rule_highlight_space_between_Dot_And_Space"/>
+  <rule count="10" name="rule_insert_unit_Space_between_Units"/>
+  <rule count="6" name="rule_Slash remove left side space"/>
+  <rule count="18" name="rule_Slash remove right side space"/>
+  <rule count="3" name="rule_toChangeDoubleSpaceToSingleSpaceAfterPunctuation"/>
+  <rule count="28" name="rule_toHighlight_IfSpaceMissingAfterClosingParenthesis"/>
+  <rule count="5" name="seriesBooktitleSentenceCaseWithLcAfterColon"/>
+  <rule count="20" name="Singleunit-unitspace-4-expanded"/>
+  <rule count="79" name="editedBooktitleSentenceCaseWithLcAfterColon"/>
+  <rule count="11" name="rule-RemoveSpace-BeforeDot"/>
+  <rule count="11" name="rule_delete_space_after_hyphen"/>
+  <rule count="1" name="rule_to_delect_space_before_colon_in_journalTitle"/>
+  <rule count="8" name="abbreviateJournalTitleWithdots"/>
+  <rule count="1" name="rule-ndash-numbers-1"/>
+  <rule count="2" name="rule_insert_unit_Space_between_multi_Units"/>
+  <rule count="15" name="abbreviateJournalTitleWithoutdots"/>
+  <rule count="18" name="rule-wt%mol%-unitspace-1"/>
+  <rule count="29" name="rule_minus_spacedHyphenBeforeNumber"/>
+  <rule count="6" name="rule_to_delete_DOT_in_stl"/>
+  <rule count="8" name="articletitleSentenceCaseWithCapAfterColon"/>
+  <rule count="8" name="bookTitleSentenceCaseWithCapAfterColon"/>
+  <rule count="20" name="editedBookTitleSentenceCaseWithCapAfterColon"/>
+  <rule count="1" name="rule-expandedwkdymoyr-abbreviatespelled-unitspace"/>
+  <rule count="14" name="rule-expandedwkdymoyr-unitspace"/>
+  <rule count="1" name="rule-expandedwkdymoyr-unitspace-1"/>
+  <rule count="1" name="rule-wkdymoyrabbre-abbreviatespelled-unitspace-1"/>
+  <rule count="1" name="rule_defaultQueryForArticleTitleOrChapterTitleEnd"/>
+  <rule count="1" name="rule_toInsertQueryAtArticleTitleOrChapterTitleEndIfAuthorPresent_ACETool_rule_defaultQueryForArticleTitleOrChapterTitleEnd"/>
+  <rule count="1" name="seriesEditedBookTitleSentenceCaseWithCapAfterColon"/>
+  <rule count="4" name="rule-RemoveSpace-Parenth-1"/>
+  <rule count="32" name="rule-CitationAfterSpace"/>
+  <rule count="1" name="rule-highlightSpaceBeforeHyphen"/>
+  <rule count="1" name="rule_DeleteSpaceAroundOperators_sub"/>
+  <rule count="13" name="rule_ndash_numRangeintableentry"/>
+  <rule count="3" name="rule_Remove space between Single ltr Variable and symbol designators"/>
+  <rule count="7" name="rule_spaced_hyphen_to_spaced_ndash"/>
+  <rule count="3" name="RemoveLeadingAndTrailingSpaceInKWD"/>
+  <rule count="1" name="rule-Semicolonspacefax:"/>
+  <rule count="1" name="rule-Semicolonspacefax: +"/>
+  <rule count="70" name="UCA_rule_insert_space_before_percent_and_permil_symbol_1"/>
+  <rule count="3" name="ChangePlusSlashMinusToPlusOrMinusWithOneSideSpace"/>
+  <rule count="1" name="deleteFloatAnchorInTablecaptionOrFigcaptionAndPasteInText_ACETool_rule-Adddot_FigCaption-2"/>
+  <rule count="2" name="FormatCheckingOfSpaceGroup"/>
+  <rule count="3" name="LE_highlight_IfSpaceMissingAfterClosingParenthesis"/>
+  <rule count="27" name="LE_SpellCheckBasedonDictionaryForSingleOccurrence_AlertForMissingSpace"/>
+  <rule count="2" name="rule-degreeF-unitspace-1"/>
+  <rule count="4" name="rule-InsertThinSpace-OnEitherSideOfArrow"/>
+  <rule count="1" name="rule-variantunits"/>
+  <rule count="4" name="rule_Aring_to_Angstrom"/>
+  <rule count="1" name="rule_insert_operator_space_between_arrowMark_in_numRange"/>
+  <rule count="1" name="rule_insert_operator_space_between_arrowMark_in_numRange_ACETool_rule-InsertThinSpace-OnEitherSideOfArrow"/>
+  <rule count="1" name="rule_insertThinSpaceInAbbreviatedSingleUnits"/>
+  <rule count="1" name="rule_replace_chemicalTerms_with_locants_in_italic"/>
+  <rule count="5" name="rule_toAbbreVolume_Nbsp_space"/>
+  <rule count="2" name="rule_toAbbreWeight_Nbsp_space"/>
+  <rule count="1" name="rule_ToHighlight_Km_before_Unitswithslash"/>
+  <rule count="2" name="rule_toRemoveDotInVol_Nbsp_space"/>
+  <rule count="19" name="Use minus signs in M plus minus 1 M plus minus C5H10 - 1"/>
+  <rule count="4" name="rule_ndash_numRangeintableentry-Parenth"/>
+  <rule count="2" name="correctThePlacementOfSuperscriptNumberedCitationsBeforeOrAfterPunctuation_1"/>
+  <rule count="4" name="rule-SemicolonSpace-1"/>
+  <rule count="4" name="rule-SemicolonSpace-2"/>
+</rules>

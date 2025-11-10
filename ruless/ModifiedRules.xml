@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Modified Changes - Total Rules: 115 -->
+<rules>
+  <rule count="1" name="rule-Adddot_End of table caption-2"/>
+  <rule count="1" name="rule-Adddot_End of table caption-5"/>
+  <rule count="19" name="expandJournalTitle"/>
+  <rule count="1" name="rule-removedot_at_end of table caption-2"/>
+  <rule count="24" name="rule_Single Variable and Number with Operator in italic"/>
+  <rule count="23" name="rule_Single Variable and Number with Operator with sup"/>
+  <rule count="1" name="ital_LatinSingle ltr variable -global"/>
+  <rule count="5" name="ital_LatinSingleLtrVariable_single character"/>
+  <rule count="2" name="rule-removeUnitsRepeatedInRanges_1"/>
+  <rule count="4" name="rule_Highlight_ExpandSIUnitswithoutNumerals"/>
+  <rule count="1" name="rule_indefinitearticles-21"/>
+  <rule count="1" name="rule_insert_hyphen_in_t-test"/>
+  <rule count="5" name="rule_ital_tTest"/>
+  <rule count="1" name="rule_italicize_p"/>
+  <rule count="4" name="rule_Single Variable and Number with Operator with sub"/>
+  <rule count="14" name="SpellCheckBasedonDictionary_SmartSpell"/>
+  <rule count="1" name="Units Abbreviation-1"/>
+  <rule count="1" name="URI_use_hyphen_in_t-test"/>
+  <rule count="2" name="Equalto"/>
+  <rule count="18" name="rule-Adddot_withoutTableCaption_IgnoreEmail_TelNumber"/>
+  <rule count="1" name="rule-ChangeHyphentoMinus"/>
+  <rule count="1" name="rule-CitationAfterDotComma"/>
+  <rule count="27" name="rule-correctentity-degree-1"/>
+  <rule count="1" name="rule-ndash-numbers-2"/>
+  <rule count="1" name="rule_change_u_to_mu_followed_by_number"/>
+  <rule count="2" name="rule_Figure Citation for Part Figure with and Option-Fig"/>
+  <rule count="16" name="rule_Figure Citation with only Number"/>
+  <rule count="21" name="rule_insert_dot_after_refcitation_if_no_punctuationpresent_before"/>
+  <rule count="1" name="rule_lambda max with italic lamda and sub-italic max"/>
+  <rule count="7" name="rule_ndash_numRangePreceededbyKeyterms"/>
+  <rule count="1" name="rule_Qualifies variable -3"/>
+  <rule count="1" name="rule_remove_bold_operators_1"/>
+  <rule count="2" name="rule_toRemoveRepeatedSameNumbers_inFig"/>
+  <rule count="18" name="Single Figure Citation"/>
+  <rule count="1" name="Single Figure Multiple Parts Citation-1"/>
+  <rule count="3" name="rule_highlightFigcaptionEColor_withoutDot"/>
+  <rule count="15" name="rule_to_delete_DOT_in_stl"/>
+  <rule count="3" name="LE_rule_from_to"/>
+  <rule count="1" name="rule_change_BC_to_BCE_when_follwedBy_number_for_roman"/>
+  <rule count="4" name="rule_ndash_yearRange1"/>
+  <rule count="26" name="rule_remove thousand separator for four digits"/>
+  <rule count="8" name="rule_remove thousand separator for four digits_1"/>
+  <rule count="18" name="rule_remove thousand separator for four digits_2"/>
+  <rule count="1" name="SpellCheckBasedonDictionaryWithoutGenusAndChemIgnore"/>
+  <rule count="24" name="abbreviateJournalTitleWithoutdots"/>
+  <rule count="19" name="rule-Adddot_withoutTableCaption"/>
+  <rule count="9" name="rule-correctentity-degree-2"/>
+  <rule count="2" name="rule-degreeC-1"/>
+  <rule count="3" name="rule_Times_Number without Units with superscript"/>
+  <rule count="3" name="rule_timesFollwedByNumberUnit"/>
+  <rule count="9" name="SpellOutDegree-2"/>
+  <rule count="2" name="insertParenthForCommentsInMscStyle_1"/>
+  <rule count="2" name="insParenthAroundComments_APA"/>
+  <rule count="3" name="latinWordsToRoman-1"/>
+  <rule count="24" name="LE_rule_Do not use punctuations before opening bracket"/>
+  <rule count="24" name="LE_rule_Do_not_use_punctuations_before_opening_bracket_within_bracket"/>
+  <rule count="1" name="LE_SpellCheckBasedonDictionary_US_SmartSpell"/>
+  <rule count="1" name="rule-allunits-abbreviatespelled-1"/>
+  <rule count="3" name="rule_latinWordsToRoman"/>
+  <rule count="13" name="rule-ndash-numbers-3"/>
+  <rule count="25" name="rule_hyphen_to_ndash_inRanges"/>
+  <rule count="95" name="rule_ndash_decimalNumRange1"/>
+  <rule count="84" name="rule_ndash_decimalNumRange2"/>
+  <rule count="2" name="ital_singleLtrVariableBefMathOperator"/>
+  <rule count="7" name="rule-ndash-numbers-highlight"/>
+  <rule count="1" name="rule_Change_BCE_BC_AD_to_smallCaps"/>
+  <rule count="38" name="rule_hyphen_to_ndash"/>
+  <rule count="1" name="rule_ital_p_n"/>
+  <rule count="2" name="rule_italicize_lc_P_highlight"/>
+  <rule count="1" name="rule_italicize_lc_P_val"/>
+  <rule count="4" name="rule_italize_t_in_t-test"/>
+  <rule count="2" name="tableHeaderToSentenceCase"/>
+  <rule count="2" name="rule_Number with oneside Operator"/>
+  <rule count="1" name="FigureChangedToFigsInCitation_forRange"/>
+  <rule count="6" name="highlightTheUsageOfSeparatorForTwoFigureCitation"/>
+  <rule count="2" name="RemovePeriodInsideFloatCitations"/>
+  <rule count="1" name="rule-Tel.:"/>
+  <rule count="1" name="rule-Tel.: +"/>
+  <rule count="1" name="rule_Change animals and plant family names into roman"/>
+  <rule count="1" name="rule_Figure Citation for Part Figure with Ampersand Option"/>
+  <rule count="7" name="rule_Figure Citation for Part Figure with hyphen or ndash-Fig"/>
+  <rule count="4" name="rule_Figure Citation for Part Figure with to when numbers are equal"/>
+  <rule count="3" name="rule_Figure Citation with Hyphen Option-Fig"/>
+  <rule count="4" name="rule_Figure_Changed_To_Figs_InCitation"/>
+  <rule count="4" name="rule_Figure_Citation_for_Part_Figure_with_hyphen_or_ndash"/>
+  <rule count="1" name="rule_highlight_NumberAndEquWithOperator"/>
+  <rule count="3" name="rule_hyphenToAnd_single_figure_multiple_parts_citation"/>
+  <rule count="2" name="rule_Special Variables and Variable or Number with Operator"/>
+  <rule count="12" name="Single Figure Multiple Parts Citation-3"/>
+  <rule count="1" name="rule_delete_enddot_in_reference"/>
+  <rule count="1" name="rule_removeEndDotInWebReference"/>
+  <rule count="1" name="rule-delete_comma_in_etal-withparenth"/>
+  <rule count="1" name="rule_refCitation_YearPunctuation-2"/>
+  <rule count="1" name="rule_Table Citation with Ampersand Option"/>
+  <rule count="1" name="useTablesForMorethanTwoTableCitations"/>
+  <rule count="1" name="abbreviateJournalTitleWithdots"/>
+  <rule count="1" name="ChangePlusSlashMinusToPlusOrMinusWithCharacters"/>
+  <rule count="3" name="Check_punctuation_sequence_and_highlight_withoutColon"/>
+  <rule count="1" name="correctThePunctuationInOnlineNumberedCitations_1"/>
+  <rule count="1" name="Expandedsingleunit"/>
+  <rule count="1" name="Expandedunitswithpre-unitspace-3"/>
+  <rule count="3" name="LE_Check_punctuation_sequence_and_highlight"/>
+  <rule count="3" name="Multiple Figure Citation-1"/>
+  <rule count="3" name="Multiple Figure Citation-2"/>
+  <rule count="6" name="Multiple Figure Citation-3"/>
+  <rule count="6" name="rule-Adddot_FigCaption-2"/>
+  <rule count="7" name="rule-Adddot_withoutfigCaption_colorCheck"/>
+  <rule count="1" name="rule-References"/>
+  <rule count="2" name="rule_change_ReferencesSection_to_references"/>
+  <rule count="1" name="rule_First letter caps in figure/table/scheme caption"/>
+  <rule count="1" name="rule_highlight_Letter_inBeginning_or_followedBy_questionMark"/>
+  <rule count="2" name="rule_use_correct_operators_in_superscript"/>
+  <rule count="1" name="toRedefineGrantSponsorId_withQueryForNoGSLink"/>
+  <rule count="1" name="rule_change_to_references"/>
+  <rule count="2" name="rule_remove_ital_operators_1"/>
+</rules>

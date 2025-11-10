@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Matched Changes - Total Rules: 618 -->
+<rules>
+  <rule count="10" name="highlightIfMismatchedOpenAndCloseBrackets"/>
+  <rule count="8" name="raiseAlertIfSectionHeadingIsPresentInTheArticleWithoutCitation"/>
+  <rule count="155" name="toRedefineGrantSponsorId_withQueryForNoGSLink"/>
+  <rule count="14" name="AbbreviateJournalTitleWithoutdotsIndexMedicus"/>
+  <rule count="45" name="afterEmdashColonEndashLowerCaseAndArticletitleShouldBeInSentenceCase"/>
+  <rule count="1" name="CheckKeywordLimit"/>
+  <rule count="1" name="docheadShouldBeInSentencecase"/>
+  <rule count="3" name="first_occurrence_manufacturers_text_address_needed"/>
+  <rule count="1" name="highlightIfPrefixesLikeVanDeLaAreStyledAsForename"/>
+  <rule count="21" name="keywordsShouldBeInSentenceCase"/>
+  <rule count="6" name="LE_adverbs_ending_in_ly"/>
+  <rule count="7" name="LE_Correct usage of US and USA2"/>
+  <rule count="9" name="LE_followPluralFormatForPluralAbbreviationExpansionInText"/>
+  <rule count="38" name="LE_highlight_toCheckCompletenessOfSentenceInparentheses"/>
+  <rule count="4" name="LE_rule-useClosedupCompoundnames"/>
+  <rule count="16" name="LE_rule_Highlight_confusing_words"/>
+  <rule count="5" name="LE_rule_highlight_properNouns"/>
+  <rule count="1" name="LE_rule_word usage_mid-1"/>
+  <rule count="1" name="LE_rule_WordList_Find_Highlight_yse"/>
+  <rule count="163" name="LE_SpellCheckBasedonDictionary_SmartSpell"/>
+  <rule count="23" name="LE_URI_ama_preferred_word_list"/>
+  <rule count="1" name="LE_UseAmericanSpellingforNormalEnglishWords_2"/>
+  <rule count="2" name="queryAuthorForMissingProfessionalDegree"/>
+  <rule count="3" name="rule-Adddot_ArticleFootnote-2"/>
+  <rule count="1" name="rule-Adddot_CorrespondingAuthor-3_ACETool_UCA_corresponding_author_standard_query_blood"/>
+  <rule count="4" name="rule-Adddot_FigCaption-2"/>
+  <rule count="1" name="rule-Adddot_TblLegend-2"/>
+  <rule count="5" name="rule-affiliation-delimiters-1"/>
+  <rule count="8" name="rule-change_to_US-dateFormat_3"/>
+  <rule count="2" name="rule-expandMonth_2"/>
+  <rule count="14" name="rule-Keywords"/>
+  <rule count="76" name="rule_change_apostrophes_to_straight_quotes-1_except_secionaAppsectiona"/>
+  <rule count="2" name="rule_Figure Citation inside parenthesis_single -Fig"/>
+  <rule count="19" name="rule_Figure label in Caption"/>
+  <rule count="28" name="rule_highight_grant_inText"/>
+  <rule count="2" name="rule_italicize_lc_N_highlight"/>
+  <rule count="1" name="rule_italicize_lc_R_highlight"/>
+  <rule count="1" name="rule_ndash_decimalNumRange1"/>
+  <rule count="10" name="rule_ndash_decimalNumRange2"/>
+  <rule count="40" name="rule_ndash_numRangePreceededbyKeyterms"/>
+  <rule count="3" name="rule_Spell_Numeral_In_MiddleOfSentence_OneToNine"/>
+  <rule count="3" name="rule_SpelloutOrdinals_1"/>
+  <rule count="250" name="rule_Words with Single Operator"/>
+  <rule count="64" name="tableHeaderToSentenceCase"/>
+  <rule count="130" name="thousandSeparatorToInsertCommaForClosedUpNumbers"/>
+  <rule count="1" name="UCA_corresponding_author_standard_query_blood"/>
+  <rule count="1" name="UCA_gene_standard_query_jbc_mcpro"/>
+  <rule count="1" name="UCA_gene_standard_query_jid_xjidi_ACETool_UCA_gene_standard_query_jbc_mcpro"/>
+  <rule count="1" name="UCA_standard_disclosure_query_ajpa_jmdi"/>
+  <rule count="1" name="UCA_uca_rule_insert_figure_table_standard_abbreviation_query_ACETool_rule-Adddot_FigCaption-2"/>
+  <rule count="2" name="use_slashed_units_not_inverse_units_3"/>
+  <rule count="46" name="useLowercaseLettersInAffDesignators"/>
+  <rule count="1" name="alwaysAbbreviateJournalTitleWithoutdots"/>
+  <rule count="171" name="articletitleSentenceCase"/>
+  <rule count="2" name="charstyleCheckThatAreMandatoryForJournalTitleWithatlno"/>
+  <rule count="20" name="combineIndividualNumberedBibCitationsToSingleCitation"/>
+  <rule count="9" name="countryNameConsistenceInAffiliation"/>
+  <rule count="2" name="DeletePublishersCoIncAtEnd"/>
+  <rule count="8" name="editedBooktitleSentenceCaseWithLcAfterColon"/>
+  <rule count="383" name="Equalto"/>
+  <rule count="215" name="expandJournalTitle"/>
+  <rule count="17" name="figureCitationsWithPartLabelShouldBeInSequentialOrder"/>
+  <rule count="26" name="highlightNumberOfRightAndLeftQuotesInParaShouldMatch"/>
+  <rule count="3" name="HighlightPublishersCoIncAtMiddle"/>
+  <rule count="6" name="insertMissingTitle_Abstract"/>
+  <rule count="79" name="insertNumbersInSecheadsOrRenumberSecheadsWithoutDotConsistency"/>
+  <rule count="32" name="ital_singleLtrVariableBefMathOperator"/>
+  <rule count="37" name="keywordsShouldBeInSentenceCaseAndRemoveIdenticalKeywords"/>
+  <rule count="4" name="LE_rule-SingleComma"/>
+  <rule count="3" name="LE_rule_toDeleteTheBeforeCitations_InLink"/>
+  <rule count="3" name="LE_rule_toDeleteTheBeforeReferences_Link"/>
+  <rule count="6" name="mandatoryHeadingsInAbstract"/>
+  <rule count="2" name="ndashForIssueNumberRange"/>
+  <rule count="4" name="raiseQueryIfMandatoryCharStyleIsMissingInBtlReference"/>
+  <rule count="2" name="raiseQueryIfMandatoryCharStyleIsMissingInEbtlReference"/>
+  <rule count="6" name="raiseQueryIfMandatoryCharStyleIsMissingInStlReference"/>
+  <rule count="4" name="rule-MissingCountryName"/>
+  <rule count="17" name="rule-removedot_at_end of table caption-1"/>
+  <rule count="5" name="rule-Removedot_keywords"/>
+  <rule count="2" name="rule_addContentIfAffnDeptNotStartedWithListedVariants_ACETool_rule_toRaiseQueryIfAffnDeptNotStartedWithListedVariants"/>
+  <rule count="5" name="rule_All tables and figures should be numbered-1"/>
+  <rule count="145" name="rule_change_Fullout_to_Initials_DotInNamesinRefList_withDot_atEnd"/>
+  <rule count="2" name="rule_change_Fullout_to_Initials_No_DOT_InNamesinRefList_followed_by_hyphen_withDotSpace"/>
+  <rule count="27" name="rule_changeToMinusTermInExponentialNumbers"/>
+  <rule count="50" name="rule_delete_enddot_in_reference"/>
+  <rule count="1" name="rule_delete_enddot_in_reference_ACETool_charstyleCheckThatAreMandatoryForJournalTitleWithatlno"/>
+  <rule count="2" name="rule_delete_enddot_in_reference_ACETool_raiseQueryIfMandatoryCharStyleIsMissingInBtlReference"/>
+  <rule count="5" name="rule_DeleteStateOtherthanUSCountry"/>
+  <rule count="3" name="rule_highlight_missing_country_in_affiliation_with_AffncityState_check"/>
+  <rule count="21" name="rule_highlight_NumberAndEquWithOperator"/>
+  <rule count="6" name="rule_InitialCapsForAllSubheadingsInAbstract"/>
+  <rule count="12" name="rule_insert_dot_after_refcitation_if_no_punctuationpresent_before"/>
+  <rule count="33" name="rule_insert_endDot_Ended_With_Word"/>
+  <rule count="1" name="rule_insert_references_parastyle_if_missing_for_multiple_references"/>
+  <rule count="52" name="rule_minus_afterMathOperator"/>
+  <rule count="364" name="rule_minus_hyphenBeforeNumTableEntry"/>
+  <rule count="10" name="rule_removeDotIn_fullName"/>
+  <rule count="2" name="rule_Table Citation with Ampersand Option"/>
+  <rule count="13" name="rule_toCheckNestedParenthIncludingAngularBracket"/>
+  <rule count="6" name="rule_toInsertTheQueryIfAffiliationIsPresent"/>
+  <rule count="6" name="rule_toInsertTheQueryIfAuthorIsPresent"/>
+  <rule count="3" name="rule_toInsertvolInVolCharstyle_Singular"/>
+  <rule count="2" name="rule_toRaiseQueryIfAffnDeptNotStartedWithListedVariants"/>
+  <rule count="33" name="setRangesForNumberedReferenceCitations"/>
+  <rule count="43" name="SpellCheckBasedonDictionary_SmartSpell"/>
+  <rule count="6" name="structuredAbstractmustbepresent"/>
+  <rule count="111" name="tableCitationsWithPartLabelShouldBeInSequentialOrder"/>
+  <rule count="46" name="toDeleteEndPunctuationAndInsertEndPeriod"/>
+  <rule count="28" name="truncatePageRangeWithoutOrefForBMJ"/>
+  <rule count="2" name="UCA_rule_insert_Query_figcaption"/>
+  <rule count="2" name="UCA_ruleToHighlight_FirstPerson_Pronouns"/>
+  <rule count="44" name="uncitedAndUnlistedReferencesHandledForNameDateHarvardAndNameDateVancouverStylesWithCreationOfSectionheadWithEtalInItalic"/>
+  <rule count="27" name="booktitleTitleCaseWithCapAfterColonAlways"/>
+  <rule count="9" name="Change Apostrophes to straight quotes in bibitem-1"/>
+  <rule count="6" name="Change_double quotes to left curly quotes"/>
+  <rule count="4" name="Change_double quotes to right curly quotes"/>
+  <rule count="8" name="Equalto_ACETool_rule_AddLeadingZeros_Roman"/>
+  <rule count="21" name="etalAlwaysInItalicAndEndwithdot"/>
+  <rule count="17" name="highlightIfFloatCitationsMissingInText"/>
+  <rule count="2" name="highlightIfWhiteSquareMissingInBeforeEndGrouping"/>
+  <rule count="8" name="insertCitationForUncitedFiguresAndTables_1"/>
+  <rule count="2" name="insertCitationForUncitedFiguresAndTables_1_ACETool_insertCitationForUncitedFiguresAndTables_1"/>
+  <rule count="4" name="LE_rule-highlightCommonTypos-2"/>
+  <rule count="43" name="LE_rule_Do not use punctuations before opening bracket"/>
+  <rule count="4" name="LE_rule_highlight_HyphenatePrefixesToProperNames_RetainCaps"/>
+  <rule count="3" name="LE_rule_highlight_HyphenateSuffixesToProperNames_RetainCaps"/>
+  <rule count="15" name="removeIdenticalAffiliationAnduseNumbersInSuperscriptInAffDesignators_withoutQuery"/>
+  <rule count="24" name="rule-ChemicalTerm-number-online"/>
+  <rule count="26" name="rule-insert-comma_etal-withoutparenth_italic"/>
+  <rule count="65" name="rule-ndash-numbers-1"/>
+  <rule count="3" name="rule-removeUnitsRepeatedInRanges_1"/>
+  <rule count="19" name="rule_AddLeadingZeros_Roman"/>
+  <rule count="32" name="rule_alertIfNotesIsNotAtBeginingOfTheLegendParastyle"/>
+  <rule count="4" name="rule_Change the ordinals in superscript to online-1"/>
+  <rule count="56" name="rule_change_apostrophes_to_straight_quotes-2_except_secionaAppsectiona"/>
+  <rule count="15" name="rule_Change_Asterisk_to_Times_Symbol"/>
+  <rule count="1" name="rule_change_t_and_U_test_to_italics"/>
+  <rule count="70" name="rule_Highlight_ExpandSIUnitswithoutNumerals"/>
+  <rule count="1" name="rule_Highlight_ExpandTimeUnitswithoutNumerals"/>
+  <rule count="26" name="rule_highlight_If_End_With_quotes"/>
+  <rule count="33" name="rule_highlight_Letter_inBeginning_or_followedBy_questionMark"/>
+  <rule count="7" name="rule_highlight_negativeNumRange"/>
+  <rule count="2" name="rule_Highlight_toChange_to_sentenceCase"/>
+  <rule count="17" name="rule_hyphen_to_ndash"/>
+  <rule count="2" name="rule_indefinitearticles-21"/>
+  <rule count="1" name="rule_ital_GreekVariableBefMathOperator"/>
+  <rule count="1" name="rule_ital_tTest"/>
+  <rule count="2" name="rule_italize_t_in_t-test"/>
+  <rule count="10" name="rule_ndash_timeRange1"/>
+  <rule count="10" name="rule_ndash_timeRange2"/>
+  <rule count="4" name="rule_raiseQueryIfAcknowledgmentOrFundingInformationIsMissing"/>
+  <rule count="2" name="rule_refCitation_remCommaBefEtal"/>
+  <rule count="2" name="rule_removeEndDotInWebReference"/>
+  <rule count="23" name="rule_Spell_Numeral_In_MiddleOfSentence_OneToTen"/>
+  <rule count="24" name="rule_toChangeSingleLetterVariableNToItalicAndRoman"/>
+  <rule count="14" name="rule_toHighlightAndChangeN_ToItalic"/>
+  <rule count="2" name="rule_toInsertDOICharstyleIfDOILinkIsPresent"/>
+  <rule count="11" name="rule_toItalicsSingleLetterWithTestTerms"/>
+  <rule count="5" name="rule_toRemoveDotEndOfTableCells"/>
+  <rule count="18" name="rule_ToUseHyphenIn_RefRanges"/>
+  <rule count="3" name="rule_TripleDotToHellipIgnoreCompounds"/>
+  <rule count="19" name="rule_useDoubleQuotesForDirectQuotations"/>
+  <rule count="4" name="rule_useDoubleQuotesForDirectQuotations-alertforRightSideQuote"/>
+  <rule count="29" name="ruleto_remove_dot_end_of_schemeCaption"/>
+  <rule count="37" name="sectionaTitleShouldBeInSentenceCase"/>
+  <rule count="1" name="toAlert_For_WrongIdentification_Of_author_names"/>
+  <rule count="13" name="toChangePunctuationInIndirectReferenceCitation"/>
+  <rule count="36" name="toInsertAndChangeIfFnCitationsAndLablesToNumbersToOnline"/>
+  <rule count="1" name="toRaiseQueryIfTheFloatAnchorsAreNotInSequence"/>
+  <rule count="2" name="UCA_chi_square_Symbol_italic"/>
+  <rule count="15" name="UCA_rule_highlight_coefficient_of_determination_uppercase_R"/>
+  <rule count="3" name="UCA_rule_to_insert_enddot_1"/>
+  <rule count="11" name="UCA_rule_united_states_of_america_text_highlights"/>
+  <rule count="17" name="Units Abbreviation-1"/>
+  <rule count="1" name="URI_use_hyphen_in_t-test"/>
+  <rule count="48" name="abbreviateOrHighlightForAbbreviatingGenusWithDotInBinomialAfterFirstOccurrence"/>
+  <rule count="2" name="bookTitleSentenceCaseWithLcAfterColonForFullCaps"/>
+  <rule count="3" name="Change Times after Number Higlight"/>
+  <rule count="18" name="CheckAuthorNameNearReferenceCitation"/>
+  <rule count="1" name="checkIfNumberedCitationsAreInSequentialOrder"/>
+  <rule count="1" name="closedUpLitre-1"/>
+  <rule count="17" name="correctThePunctuationInOnlineNumberedCitations_1"/>
+  <rule count="11" name="deleteReferenceCitationInSourceParastyleWithBibitem"/>
+  <rule count="2" name="deleteReferenceCitationInSourceParastyleWithBibitem_ACETool_rule_insert_dot_after_refcitation_if_no_punctuationpresent_before"/>
+  <rule count="6" name="Highlight_Use fullstops after US states contraction"/>
+  <rule count="68" name="highlightCitationsIfSplittedAndThatDoNotFollowChapterNumber"/>
+  <rule count="1" name="highlightIfChapNumNotfollowedByFloats"/>
+  <rule count="57" name="insertChapterNumIfMissingForFloatTypes"/>
+  <rule count="9" name="insertCitationForUncitedFiguresAndTables"/>
+  <rule count="3" name="insertCitationForUncitedFiguresAndTables_ACETool_insertCitationForUncitedFiguresAndTables"/>
+  <rule count="98" name="insertNumbersInSecheadsByAppendingChapterNumber"/>
+  <rule count="1" name="InsertRefBeforeOnlineCitation"/>
+  <rule count="22" name="journalTitleCase"/>
+  <rule count="4" name="LE_doubleDot-highlight"/>
+  <rule count="5" name="LE_rule_between_and"/>
+  <rule count="4" name="LE_rule_from_to"/>
+  <rule count="4" name="LE_rule_highlight_the_repeated_words"/>
+  <rule count="4" name="LE_rule_ndash_uv-vis"/>
+  <rule count="5" name="LE_URI_delete_extra_parenth"/>
+  <rule count="10" name="removeIdenticalAffiliationAnduseLowercaseLettersInAffDesignators"/>
+  <rule count="12" name="rule-Adddot_End of table caption-2"/>
+  <rule count="9" name="rule-Adddot_withoutTableCaption_IgnoreEmail_TelNumber"/>
+  <rule count="103" name="rule-ChangeHyphentoMinus"/>
+  <rule count="4" name="rule-closedsingleunit-1"/>
+  <rule count="22" name="rule-closedsingleunit_IgnoreMNm"/>
+  <rule count="9" name="rule-highlightBulletsWithinText"/>
+  <rule count="4" name="rule-ndash-numbers-2"/>
+  <rule count="45" name="rule-ndash-numbers-3"/>
+  <rule count="1" name="rule-Removedot_authors"/>
+  <rule count="2" name="rule-singlebond-isotopes7"/>
+  <rule count="6" name="rule-VersusToVs.-InsideParentheses_Roman_2"/>
+  <rule count="1" name="rule_AbbreviationStandard"/>
+  <rule count="1" name="rule_AbbreviationStandard_at_end_of_sentence"/>
+  <rule count="1" name="rule_Acknowledgement_in_roman1"/>
+  <rule count="6" name="rule_Add leading zeros-1"/>
+  <rule count="3" name="rule_AddLeadingZeros_Roman_ACETool_rule_Add leading zeros-1"/>
+  <rule count="6" name="rule_change_Fullout_to_Initials_DotInNamesinRefList"/>
+  <rule count="7" name="rule_change_hyphenorndash_to_singlebond_for_single_chemCompound"/>
+  <rule count="10" name="rule_change_micron_to_symbolFollowedby_number"/>
+  <rule count="23" name="rule_change_u_to_mu_followed_by_number"/>
+  <rule count="10" name="rule_deleteAuthor_Degree"/>
+  <rule count="10" name="rule_Figure Citation for Part Figure with and Option-Fig"/>
+  <rule count="1" name="rule_highlight_number_range_descendingOrder"/>
+  <rule count="7" name="rule_highlightLowercaseLetterInBeginningOfParagraph_AfterpartLabel"/>
+  <rule count="23" name="rule_highlightUnlinkedCitations"/>
+  <rule count="40" name="rule_hyphen_to_ndash_inRanges"/>
+  <rule count="5" name="rule_hyphenToMinusInSuperscript_1"/>
+  <rule count="2" name="rule_indefinitearticles-23"/>
+  <rule count="15" name="rule_make_the_proprietary_symbols(copyright and regmark)superscript"/>
+  <rule count="1" name="rule_ndash_alphaRangeInFigcaption2"/>
+  <rule count="69" name="rule_ndash_numRangeintableentry"/>
+  <rule count="30" name="rule_ndash_tableEntry"/>
+  <rule count="428" name="rule_Number and Special Variables with Operator"/>
+  <rule count="1" name="rule_smallCaps"/>
+  <rule count="3" name="rule_smallCaps2"/>
+  <rule count="2" name="rule_Spelling and Word Usage_numeralfold"/>
+  <rule count="1" name="rule_styleEditionWithSuffixNumberWithdot"/>
+  <rule count="28" name="rule_Times_Number without Units with superscript"/>
+  <rule count="11" name="rule_timesFollwedByNumberUnit"/>
+  <rule count="5" name="rule_to_add_dot_end_of_source"/>
+  <rule count="2" name="rule_to_add_dot_end_of_source_with_citations"/>
+  <rule count="240" name="rule_to_delete_DOT_in_stl"/>
+  <rule count="4" name="rule_to_insert_view_in_abstractTitle_for_online_only"/>
+  <rule count="5" name="rule_to_insert_view_in_keywords_for_online_only"/>
+  <rule count="1" name="rule_toChange_u_toGreekSymbol_muNotFollowedNumber"/>
+  <rule count="3" name="rule_toChangeFigurePatternToFigsExceptToRangeWithIfCondition"/>
+  <rule count="1" name="rule_toChangeMicroSymbolItalicToRoman"/>
+  <rule count="57" name="rule_toHighlightIfOrefCharstyleIsPresent"/>
+  <rule count="2" name="rule_ToRemoveChapterFromChapterNumber"/>
+  <rule count="2" name="rule_toRemoveRepeatedSameNumbers_inFig"/>
+  <rule count="79" name="Single Figure Citation"/>
+  <rule count="6" name="Single Figure Multiple Parts Citation-1"/>
+  <rule count="16" name="singlebond_isotopes_Abbre"/>
+  <rule count="1" name="SingleEqShouldbeEq_DirectAndInDirect"/>
+  <rule count="1" name="Singleunit-endashtohyphen-expanded"/>
+  <rule count="18" name="Thousand-Separator-1"/>
+  <rule count="3" name="thousandSeparatorConsistency"/>
+  <rule count="8" name="useMidDotInCompounds"/>
+  <rule count="1" name="UseSingularForSingleDirectEquationCitationAndInsertParenth"/>
+  <rule count="2" name="afterEmdashColonEndashLowerCaseExceptAAnAndArticletitleShouldBeInSentenceCase"/>
+  <rule count="13" name="correctChapterNumForFloatTypes"/>
+  <rule count="7" name="et al_always_roman and end with dot_1"/>
+  <rule count="9" name="figureCaptionToSentenceCase"/>
+  <rule count="3" name="highlightReferencesWithMissingYear"/>
+  <rule count="7" name="insertSquareBracketForCommentsInMscStyle_1"/>
+  <rule count="1" name="rule-Aff-InsertUK_with_AffncityState_check"/>
+  <rule count="1" name="rule-VsToVersus-outsideParentheses"/>
+  <rule count="3" name="rule_change_apostrophes_to_straight_quotes_inBib_authorNames"/>
+  <rule count="36" name="rule_change_BC_to_BCE_when_follwedBy_number_for_roman"/>
+  <rule count="13" name="rule_Figure Citation with only Number"/>
+  <rule count="6" name="rule_toDeleteAffnpostAndAffnadd"/>
+  <rule count="2" name="StyleEdition3rdedWithdot_1"/>
+  <rule count="12" name="abbreviateJournalTitleWithdots"/>
+  <rule count="144" name="changeNameAndDateRefToNumberRef_OnlineSquareBracket"/>
+  <rule count="58" name="correctMultipleRefCitationToSingleCitationOnlineWithParenth"/>
+  <rule count="5" name="deleteCitationAndLabelForSingleAffiliationCitation"/>
+  <rule count="13" name="et al_always_roman and end with dot_2"/>
+  <rule count="59" name="LE_AMA-Clinics-HyphenationAfterPrefix-1"/>
+  <rule count="62" name="LE_rule-highlightCommonTypos-3"/>
+  <rule count="12" name="LE_rule_Do_not_use_punctuations_before_opening_bracket_within_bracket"/>
+  <rule count="2" name="LE_rule_Numerals at beginning of sentence_hglt_2"/>
+  <rule count="2" name="LE_rule_remove_punctuations_before_opening_bracket_Insert_when_punc_present_after_closing_bracket"/>
+  <rule count="21" name="LE_SpellCheckBasedonDictionaryWithoutGenusAndChemIgnore"/>
+  <rule count="4" name="MultipartFigureLabelsShouldbeInRoman"/>
+  <rule count="49" name="queryForUnlistedNumberedRefs"/>
+  <rule count="1" name="raiseQueryBasedOnMissingElementsInAffiliation"/>
+  <rule count="2" name="rule-spelloutToNumeral_CalendarUnits"/>
+  <rule count="3" name="rule_Acknowledgement_Correct_Spelling_1"/>
+  <rule count="52" name="rule_change_AD_to_CE_when_precededBy_number"/>
+  <rule count="19" name="rule_change_BC_to_BCE_when_follwedBy_number"/>
+  <rule count="1" name="rule_change_ReferencesSection_to_references"/>
+  <rule count="2" name="rule_consolidatedQueryForUnlistedNumberedRefs"/>
+  <rule count="2" name="rule_deleteEmail-BRV"/>
+  <rule count="12" name="rule_Do not use leading zero in p values"/>
+  <rule count="2" name="rule_Highlight if genus species words are in roman_inReference"/>
+  <rule count="5" name="rule_highlight_numbersLessThanTen"/>
+  <rule count="14" name="rule_ndash_numRangeFollowedbyKeyterms"/>
+  <rule count="1" name="rule_p_val_to_ital_P"/>
+  <rule count="1" name="rule_Roman_P_val_to_ital_P"/>
+  <rule count="12" name="rule_toChangeCommaAndAmpersandInPartLabels"/>
+  <rule count="5" name="rule_toRaiseAlertIfBCisFollowedByNumber"/>
+  <rule count="5" name="rule_toRaiseAlertIfNumberisPreceededAD"/>
+  <rule count="4" name="rule_toTruncateYearRangeIFFirstNumberEqual"/>
+  <rule count="32" name="sectionbTitleShouldBeInSentenceCase"/>
+  <rule count="3" name="TblEntryToSentenceCase"/>
+  <rule count="27" name="thousandSeparatorForBooks"/>
+  <rule count="1" name="toHighlightOrRaiseQueryForMovingUncitedRefToFurReading"/>
+  <rule count="11" name="useLowercaseSuperscriptLettersInTblfootnoteDesignators"/>
+  <rule count="4" name="useLowercaseSuperscriptLettersInTblfootnoteDesignators_CitationSequenceUpto52Count"/>
+  <rule count="22" name="abbreviateJournalTitleWithoutdots"/>
+  <rule count="1" name="followPluralFormatForPluralAbbreviationExpansionInFloats"/>
+  <rule count="1" name="insertQueryIfDifferentAbbreviationFoundForSameExpansion"/>
+  <rule count="3" name="insertQueryIfDifferentExpansionsFoundForSameAbbreviation"/>
+  <rule count="7" name="latinWordsToRoman-1"/>
+  <rule count="4" name="LE_DisplayListShouldbeIntroducedByColon"/>
+  <rule count="1" name="LE_rule-correctGeneralSpellingErrors-1"/>
+  <rule count="1" name="LE_rule-ndash-hyphenDBName"/>
+  <rule count="1" name="LE_rule_indefinitearticles-1"/>
+  <rule count="1" name="LE_rule_indefinitearticles-11"/>
+  <rule count="15" name="LE_rule_WordList_Find_Highlight_cross"/>
+  <rule count="11" name="LE_use period and comma after contractions and abbreviations"/>
+  <rule count="1" name="LE_use period and comma after contractions and abbreviations_italic"/>
+  <rule count="2" name="LE_use period and comma after contractions and abbreviations_italic_ACETool_LE_use period and comma after contractions and abbreviations"/>
+  <rule count="2" name="raiseQueryForChapterNo"/>
+  <rule count="35" name="RepeatPercentageSymbolInRanges"/>
+  <rule count="3" name="rule-Adddot_withoutTableCaption"/>
+  <rule count="1" name="rule-Adddot_withoutTableCaption-1"/>
+  <rule count="22" name="rule-AposToPrime"/>
+  <rule count="9" name="rule-correctentity-degree-4"/>
+  <rule count="5" name="rule-midDot-nbsp-2"/>
+  <rule count="12" name="rule-ndash-abbr-isotopes2"/>
+  <rule count="83" name="rule-ndash-numbers-highlight"/>
+  <rule count="1" name="rule-PrimeToAposInBibitem"/>
+  <rule count="21" name="rule-Removedot_sectiontitle"/>
+  <rule count="1" name="rule-spelloutNumbers-hunderdsOnly"/>
+  <rule count="1" name="rule-spelloutNumbers-OneHundred"/>
+  <rule count="2" name="rule-VersusToRoman-outsideParentheses_1"/>
+  <rule count="3" name="rule_ChangeFigureCitationsToRoman"/>
+  <rule count="4" name="rule_delete_units_InRanges"/>
+  <rule count="9" name="rule_Figure Citation for Part Figure with Hyphen Option"/>
+  <rule count="2" name="rule_highlight_ampersand_to_change_to_and"/>
+  <rule count="21" name="rule_highlight_do_not_use_abbreviations_in_sectionHeading"/>
+  <rule count="1" name="rule_highlight_numbersLessThanTenInRanges"/>
+  <rule count="1" name="rule_hyphen_to_ndash_in_partLabel_figcaption"/>
+  <rule count="1" name="rule_ital_SubscriptAlphabet_withVariable"/>
+  <rule count="15" name="rule_ital_SubscriptAlphabet_withVariable in italic"/>
+  <rule count="6" name="rule_latinWordsToRoman"/>
+  <rule count="9" name="rule_Number with oneside Percentage Or Permille Operator"/>
+  <rule count="3" name="rule_numbersLessThanTenShouldBeExpanded"/>
+  <rule count="2" name="rule_numbersLessThanTenShouldBeExpandedInRanges"/>
+  <rule count="15" name="rule_Registered_and_Trademark"/>
+  <rule count="2" name="rule_removeDoubleDotIn_Initial"/>
+  <rule count="4" name="rule_Times_Numbers with and without Units"/>
+  <rule count="1" name="rule_toAlertIfRomanLetterPrecededByItalicLetterInText"/>
+  <rule count="9" name="rule_tohighlightIfIncorrectQuotesIsPresent"/>
+  <rule count="13" name="rule_toHighlightSectionCitation_NotInLink"/>
+  <rule count="3" name="rule_use_closedup_degree_percent_permille_with_number"/>
+  <rule count="20" name="SpellOutDegree-2"/>
+  <rule count="32" name="tableCaptionToSentenceCase"/>
+  <rule count="4" name="TripleDotToHellip_In_end"/>
+  <rule count="1" name="Use full stops after contraction in bibitem"/>
+  <rule count="3" name="useNumeralsInAffDesignators"/>
+  <rule count="48" name="APAUncitedUnlistedRefsQueryOrCorrectFormatAndLinkUnlinkedReferences_SeventhEdition"/>
+  <rule count="22" name="combineSameAuthorDifferentYearCitationsByRemovingRepeatedAuthorNames"/>
+  <rule count="19" name="figureCaptionToSentenceCase_ASIP"/>
+  <rule count="1" name="Highlight_quotation_marks_at_the_beginning_of_display_quotes"/>
+  <rule count="8" name="highlightOutOfAlphabeticalOrderAPACitations"/>
+  <rule count="5" name="highlightUncitedReferencesPresentWithoutYear"/>
+  <rule count="10" name="insertNumbersInSecheadsByAppendingChapterNumberFromChapnumParastyle"/>
+  <rule count="39" name="LE_AMA-Clinics-HyphenationBeforeSuffix-1"/>
+  <rule count="1" name="LE_rule_indefinitearticles-6"/>
+  <rule count="127" name="LE_SpellCheckBasedonDictionary_US_SmartSpell"/>
+  <rule count="1" name="periodsAndCommas"/>
+  <rule count="1" name="Remove_double_quotation_marks_at_the_beginning_of_display_quotes"/>
+  <rule count="1" name="Remove_double_quotation_marks_at_the_end_of_display_quotes"/>
+  <rule count="13" name="rule-ndash-isotopes7"/>
+  <rule count="1" name="rule-spelloutToNumeral_TimeUnits"/>
+  <rule count="2" name="rule_FigureCitationforPartFigurewithAmpersandOption_WithoutParenth_NotEqual"/>
+  <rule count="3" name="rule_highlight_if_abbreviation_are_present_in_figcaption"/>
+  <rule count="22" name="rule_ndash_isotopes_Abbre"/>
+  <rule count="2" name="rule_refCitation_correctIndirectCite1_withFigCitation"/>
+  <rule count="1" name="rule_toChangeStandardVariantOfIND"/>
+  <rule count="1" name="rule_toEditVolumePattern_followedByAnyNumberPattern_Singular"/>
+  <rule count="2" name="rule_toInsert_report_in_btl"/>
+  <rule count="720" name="changeNameAndDateRefToNumberRef_OnlineItalicRoundBracket"/>
+  <rule count="124" name="et al_always_italicise and end with dot_1"/>
+  <rule count="1" name="rule-multiunits_abbre"/>
+  <rule count="3" name="rule-singleUnit_abbre_without_litre"/>
+  <rule count="3" name="rule_Figure Citation with only Number-figcaption"/>
+  <rule count="7" name="rule_remove thousand separator for four digits_1"/>
+  <rule count="5" name="rule_toDeleteAlphabetsFromAdateForNameAndDateToNumbered"/>
+  <rule count="18" name="sectionaTitleShouldBeInTitleCase"/>
+  <rule count="1" name="useAndBetweenTwoTableCitation_1"/>
+  <rule count="2" name="Change-uppercase-to-lowercase-in-emailaddress"/>
+  <rule count="36" name="expandReferencePageRange"/>
+  <rule count="6" name="insertabAfterYearInLabelAndCitationForSameAuthorSameYearRefswithSeparatelink"/>
+  <rule count="4" name="insertColonAfterAvailableAtOrAvailableFromInBibitem"/>
+  <rule count="1" name="insertOrCorrectCorrAuthorNameAndEmailBasedOnOrder"/>
+  <rule count="11" name="ital_LatinSingleLtrVariable_single character"/>
+  <rule count="2" name="LE_rule-correctGeneralSpellingErrors-2"/>
+  <rule count="1" name="LE_rule-DeletePunctuationBeforeClosingParenthesis"/>
+  <rule count="6" name="LE_rule_hyphen_to_ndash_in_directions"/>
+  <rule count="1" name="LE_URI_use_hyphen_when_prefixed_by_self"/>
+  <rule count="3" name="Number and g with Times_wordspace"/>
+  <rule count="1" name="publisherShouldBeInTitleCase"/>
+  <rule count="1" name="queryToListAllAuthorsInEtalRefs"/>
+  <rule count="1" name="raiseQueryToCheckCorrespondingAuthorEmailBasedOnOrder"/>
+  <rule count="8" name="rule-Add thousand separator for four digits"/>
+  <rule count="16" name="rule-Change sp spp species into roman"/>
+  <rule count="40" name="rule-closedsingleunit"/>
+  <rule count="1" name="rule-Removedot_articletitle"/>
+  <rule count="6" name="rule-removedot_at_end of table caption-1_ACETool_rule_queryforMissingTableCaption"/>
+  <rule count="2" name="rule-removedot_at_end of table caption-2"/>
+  <rule count="2" name="rule_AddLeadingZeros_Bold"/>
+  <rule count="1" name="rule_alertIfParagraphStartWithLowerCasePrecededByParagraph"/>
+  <rule count="2" name="rule_change_affncity_to_affnstate"/>
+  <rule count="3" name="rule_Change_BCE_BC_AD_to_smallCaps"/>
+  <rule count="1" name="rule_expandCalendarUnits_plural"/>
+  <rule count="1" name="rule_Figure Citation with only Number-Fig. to Figure"/>
+  <rule count="3" name="rule_highlight_missing_MFCcountry_list"/>
+  <rule count="1" name="rule_highlightHighercaseLetter_paranoindent_precededBy_displaymath"/>
+  <rule count="1" name="rule_highlightIfEDNisInUpperCaseInReferences"/>
+  <rule count="2" name="rule_highlightIfMSCisInUpperCaseInReferences"/>
+  <rule count="2" name="rule_highlightToCheckAuthorNameInBiographyMatchWithAuthorName"/>
+  <rule count="55" name="rule_ital_LatinSingleLtrVariableAfterMathOperator_2"/>
+  <rule count="27" name="rule_ital_LatinVariable_withSubscriptAlphabet"/>
+  <rule count="1" name="rule_ital_p_n"/>
+  <rule count="7" name="rule_ital_singleLtrVariable with subscript number"/>
+  <rule count="64" name="rule_ital_singleLtrVariableBefMathOperator-3"/>
+  <rule count="2" name="rule_ital_singleLtrVariableBefMathOperatorwithSupAlphaBefore-1"/>
+  <rule count="6" name="rule_Italicize_lc_P"/>
+  <rule count="1" name="rule_italicize_lc_P_highlight"/>
+  <rule count="1" name="rule_italicize_p_highlight"/>
+  <rule count="1" name="rule_italicize_p_val"/>
+  <rule count="2" name="rule_minus_hyphenBeforeNumTableEntry_ACETool_rule_AddLeadingZeros_Bold"/>
+  <rule count="5" name="rule_minus_hyphenBeforeNumTableEntry_ACETool_rule_AddLeadingZeros_Roman"/>
+  <rule count="6" name="rule_queryforMissingTableCaption"/>
+  <rule count="21" name="rule_Single Variable and Number with Operator in italic"/>
+  <rule count="32" name="rule_Single Variable and Number with Operator with sup"/>
+  <rule count="65" name="rule_Spaced times"/>
+  <rule count="3" name="rule_Times_Number without Units"/>
+  <rule count="1" name="rule_ToChangeCountryNameAsUK_ACETool_rule_toInsertTheQueryIfAffiliationIsPresent"/>
+  <rule count="1" name="rule_toRemoveDotEndOfTableCells_ACETool_TripleDotToHellip_in_beginning"/>
+  <rule count="2" name="rule_USAUK_correct_format_at_end_of_sentence"/>
+  <rule count="4" name="rule_Use_comma_SeparatorInKeywords"/>
+  <rule count="11" name="sectioncTitleShouldBeInSentenceCase"/>
+  <rule count="15" name="sectiondTitleShouldBeInSentenceCase"/>
+  <rule count="13" name="toAlertIfFnCitationsAreUnlisted"/>
+  <rule count="7" name="toInsertCorrectTooltipInAppendixSection"/>
+  <rule count="1" name="toInsertStdTextInAppendixSecBasedOnMmc"/>
+  <rule count="1" name="TripleDotToHellip_in_beginning"/>
+  <rule count="1" name="UCA_comma_before_ie_revised"/>
+  <rule count="2" name="UCA_rule_change_hyphen_to_minus_in_superscript_values"/>
+  <rule count="1" name="UCA_rule_chinese_abstract_mandatory_in_EJMBE"/>
+  <rule count="5" name="UCA_rule_insert_available-at_before_URL_in_references"/>
+  <rule count="2" name="UCA_rule_insert_Query_inlineGraphic"/>
+  <rule count="1" name="UCA_rule_mr_ms_mrs_deletion_in_vitae"/>
+  <rule count="3" name="useAndBetweenNamesOfTwoAuthorsUseFirstAuthorEtAlForMoreThanTwoAuthorsWithEtalInItalic"/>
+  <rule count="10" name="useLowercaseLettersInTblfootnoteDesignators"/>
+  <rule count="5" name="APAUncitedRefsQueryOrCorrectFormatAndLinkUnlinkedReferences"/>
+  <rule count="51" name="APAUnlistedRefsQueryOrCorrectFormatAndLinkUnlinkedReferences_footnoteDirectCitation"/>
+  <rule count="59" name="articletitleSentenceCaseWithCapAfterColon"/>
+  <rule count="18" name="bookTitleSentenceCaseWithCapAfterColon"/>
+  <rule count="21" name="insertIndividualQueryUncitedAndUnlistedRefsForNameDateHarvardAndVancouverStylesWithCreationOfSectionhead"/>
+  <rule count="12" name="rule_Abbr_Initials_in_name_in_RefList_1"/>
+  <rule count="9" name="rule_Abbr_Initials_in_name_in_RefList_4"/>
+  <rule count="1" name="rule_Parenthesis with Operator"/>
+  <rule count="7" name="changeGenusSpeciesToItalicThroughOutArticle"/>
+  <rule count="1" name="DoNotUseKeywordspacs"/>
+  <rule count="2" name="externalLinking1"/>
+  <rule count="12" name="highlight_If_text_has_reference_to_colors"/>
+  <rule count="1" name="highlightIfFirstLetterOfSpeciesNameIsInUpperCase"/>
+  <rule count="9" name="highlightInconsistentUnitsWithLORl"/>
+  <rule count="63" name="highlightOrExpandGenusInBinomialAtItsFirstOccurrenceAndAbbreviateWithDotSubsequently"/>
+  <rule count="11" name="highlightTheUsageOfSeparatorForTwoFigureCitation"/>
+  <rule count="106" name="insertNumbersInSecheadsOrRenumberSecheads_withIgnoreSectionHeadings"/>
+  <rule count="1" name="insertNumbersInSecheadsOrRenumberSecheads_withIgnoreSectionHeadings_ACETool_insertNumbersInSecheadsOrRenumberSecheads_withIgnoreSectionHeadings"/>
+  <rule count="2" name="LE_EnglishSpelling"/>
+  <rule count="2" name="LE_rule_remove_punctuations_before_opening_bracket_Insert_after_closing_bracket_withoutListA"/>
+  <rule count="2" name="LE_rule_remove_punctuations_before_opening_bracket_Insert_after_closing_bracket_withoutListA2"/>
+  <rule count="3" name="LE_UKUSSpelling_WordBased_Consistency_Check"/>
+  <rule count="7" name="Multiple Figure Citation-1"/>
+  <rule count="2" name="rule-CitationAfterDotComma"/>
+  <rule count="113" name="rule-etal-withoutparenth"/>
+  <rule count="3" name="rule-Figure citation consistency"/>
+  <rule count="3" name="rule-Figure citation consistency in part figure labels"/>
+  <rule count="2" name="rule-MissedTermKeywords"/>
+  <rule count="3" name="rule_change_apostrophes_to_straight_quotes-1_for_sectionaAppsectiona"/>
+  <rule count="35" name="rule_Figure Citation for Part Figure with hyphen or ndash-Fig"/>
+  <rule count="2" name="rule_Figure Citation for Part Figure with to when numbers are equal"/>
+  <rule count="6" name="rule_Figure_Changed_To_Figs_InCitation"/>
+  <rule count="3" name="rule_highlight_affiliation_should_be_in_titlecase_with_charstyle_check"/>
+  <rule count="3" name="rule_highlight_If_text_has_reference_to_term_color"/>
+  <rule count="1" name="rule_highlight_Staggered_sub_and_superScript_value"/>
+  <rule count="11" name="rule_hyphenToAnd_single_figure_multiple_parts_citation"/>
+  <rule count="2" name="rule_Number with oneside Operator"/>
+  <rule count="14" name="rule_refCitation_commaBefYr_Unlinked"/>
+  <rule count="1" name="rule_refCitation_correctIndirectCite1_Unlinked"/>
+  <rule count="3" name="rule_remove thousand separator for four digits"/>
+  <rule count="6" name="rule_remove_ital_operators_1"/>
+  <rule count="4" name="rule_Single Variable and Number with Operator with sub"/>
+  <rule count="1" name="rule_toChangeSectionForClassKeywords"/>
+  <rule count="14" name="Single Figure Multiple Parts Citation-3"/>
+  <rule count="4" name="uncitedAndUnlistedReferencesHandledForNameDateHarvardAndNameDateVancouverStylesWithCreationOfSectionhead"/>
+  <rule count="1" name="wordCountInAbstract"/>
+  <rule count="11" name="articletitleShouldBeInSentenceCase"/>
+  <rule count="1" name="correspondenceTermUsageBasedOnSingleOrMultipleAuAndAlsoForReviewer"/>
+  <rule count="1" name="LE_rule_hyphen_to_ndash_inbetween_Countries_states"/>
+  <rule count="2" name="QueryforMissingKeyword"/>
+  <rule count="1" name="rule-Corresponding authors."/>
+  <rule count="1" name="rule_deleteAuthor_Role"/>
+  <rule count="1" name="wordCountInAbstractMaximumOf250"/>
+  <rule count="1" name="rule_toRaiseQueryIfInitialsCountMoreThanSix"/>
+  <rule count="4" name="bookTitleSentenceCaseWithLcAfterColon"/>
+  <rule count="1" name="grantSponsorforRUP"/>
+  <rule count="1" name="rule_Table Citation with only Number"/>
+  <rule count="3" name="rule_toHighlightIfUSStatesMissingInCityCharstyle"/>
+  <rule count="1" name="StyleEdition3rdedWithdot"/>
+  <rule count="10" name="fullcapsArticletitleShouldBeInSentenceCase"/>
+  <rule count="2" name="highlightIfFulloutNotInitialsInNamesinRefList"/>
+  <rule count="1" name="insertIndividualQueryUncitedAndUnlistedRefsForNameDateHarvardAndVancouverStylesWithCreationOfSectionhead_ACETool_uncitedAndUnlistedReferencesHandledForNameDateHarvardAndNameDateVancouverStylesWithCreationOfSectionheadWithEtalInItalic"/>
+  <rule count="1" name="queryUnlistedCitations_S5"/>
+  <rule count="19" name="rule-insert_comma-etal-withoutparenth"/>
+  <rule count="5" name="rule_Abbr_Initials_in_name_in_RefList_3"/>
+  <rule count="1" name="rule_alertIfRefCitationIsPresentInLegend"/>
+  <rule count="6" name="rule_Change the decimal commas in numbers to decimal points - 1"/>
+  <rule count="1" name="useHellipWithLastAuthorWhenMoreThanSevenAuthorsAppear"/>
+  <rule count="1" name="useTablesForMorethanTwoTableCitations"/>
+  <rule count="2" name="Allunitsabbre-unitspace"/>
+  <rule count="8" name="articleTitleShouldBeInSentenceCaseExceptFollowAuthorAfterColon"/>
+  <rule count="1" name="ChangePlusSlashMinusToPlusOrMinusWithCharacters"/>
+  <rule count="2" name="ChangePlusSlashMinusToPlusOrMinusWithNumbers"/>
+  <rule count="1" name="changeSupplementaryFigTblSchTooltipToAppsec"/>
+  <rule count="3" name="Check_punctuation_sequence_and_highlight_withoutColon"/>
+  <rule count="3" name="CheckAuthorNameNearReferenceCitationWithoutAbstract"/>
+  <rule count="7" name="Chemistry_DMSOstyle_1"/>
+  <rule count="1" name="Expandedunitswithpre-unitspace-3"/>
+  <rule count="2" name="FigureChangedToFigsInCitation_forRange"/>
+  <rule count="1" name="identifyPartialOrIdenticalRefElements"/>
+  <rule count="1" name="InitCapsStructuredAbstract"/>
+  <rule count="3" name="LE_Italicise_ortho_meta_para"/>
+  <rule count="3" name="Multiple Figure Citation-3"/>
+  <rule count="1" name="rule-Aff-InsertUK"/>
+  <rule count="1" name="rule-CountryCapitalisation_PRChina"/>
+  <rule count="2" name="rule-Leading Zero-Consistency"/>
+  <rule count="1" name="rule-Name etal-et al_highlight"/>
+  <rule count="1" name="rule-Reaction followed by number"/>
+  <rule count="1" name="rule-Removedot_affiliation"/>
+  <rule count="5" name="rule_change_chemicalTerms_italics"/>
+  <rule count="4" name="rule_change_hyphen_to_endash_in_bold_letters"/>
+  <rule count="6" name="rule_change_hyphen_to_ndash_for_single_chemCompound"/>
+  <rule count="2" name="rule_change_timeFormat_followedBy_numerals"/>
+  <rule count="7" name="rule_changeLessOrGreaterthanEqualToSingleSign"/>
+  <rule count="4" name="rule_Figure_Changed_To_Figs_InCitation_forPartlabel"/>
+  <rule count="3" name="rule_Figure_Citation_for_Part_Figure_with_and_Option"/>
+  <rule count="24" name="rule_Figure_Citation_for_Part_Figure_with_hyphen_or_ndash"/>
+  <rule count="2" name="rule_Figure_Citation_with_Hyphen_Option"/>
+  <rule count="1" name="rule_First letter caps in figure/table/scheme caption"/>
+  <rule count="21" name="rule_highlight_chemicalTerms"/>
+  <rule count="3" name="rule_highlight_chemicalTerms_H_followedBy_numberHyphen"/>
+  <rule count="1" name="rule_highlight_IfSupplied_AcceptDate"/>
+  <rule count="1" name="rule_highlight_IfSupplied_RevisedDate"/>
+  <rule count="1" name="rule_Highlight_Missing_MFCcountry_List_Duplicate"/>
+  <rule count="3" name="rule_highlight_Stereochemistry_Labels_Italic"/>
+  <rule count="1" name="rule_highlight_u_followed_by_number"/>
+  <rule count="6" name="rule_highlightAndItalicise_FirstSingleletter_ChemicalTerms_Prime"/>
+  <rule count="2" name="rule_insert_EndDot_Before_Image"/>
+  <rule count="55" name="rule_ital_delta_with ppm"/>
+  <rule count="45" name="rule_ital_m/z"/>
+  <rule count="2" name="rule_ndash_numRangePreceededbyParenthesis"/>
+  <rule count="1" name="rule_ndash_simNum_In_Text"/>
+  <rule count="3" name="rule_remove_bold_operators_1"/>
+  <rule count="1" name="rule_roman_epsilon_to_italic_epsilon_If_UV_Present"/>
+  <rule count="11" name="rule_roman_J_to_italic_J_If_NMR_Present"/>
+  <rule count="1" name="rule_Single Variable and Number with Operator in bold"/>
+  <rule count="1" name="rule_to_RiseQuery_for_racialTerms_relatedTo_colours_other_than_Black_And_White"/>
+  <rule count="1" name="rule_toInsertNbspBeforeClosedUpMNm"/>
+  <rule count="1" name="rule_toTextChangeAnd_CaseChange_TheCountryNetherland"/>
+  <rule count="30" name="rule_use_correct_operators_in_online"/>
+  <rule count="5" name="rule_use_correct_operators_in_superscript"/>
+  <rule count="1" name="UseRevisedDateIfSupplied"/>
+  <rule count="6" name="rule_toUseAsteriskPrimeInOnline"/>
+  <rule count="3" name="sectionbTitleShouldBeInTitleCase"/>
+  <rule count="1" name="toRedefineGrantSponsorId_withQueryForNoGSLink_ACETool_toRedefineGrantSponsorId_withQueryForNoGSLink"/>
+  <rule count="8" name="articletitleShouldBeInTitleCase"/>
+  <rule count="8" name="articletitleShouldBeInTitleCaseWithCapAfterHyphenColonEmdash"/>
+  <rule count="1" name="DoNotUseKeywords"/>
+  <rule count="2" name="HighlightQuotesMismatch"/>
+  <rule count="5" name="queryForEmptyColumnHeadInTable"/>
+  <rule count="1" name="queryForMissingBiographicalSketch"/>
+  <rule count="1" name="raiseQueryForStlCharstyleIfDoiIsMissing"/>
+  <rule count="1" name="rule-highlightTelFaxInCorrespondencePara"/>
+  <rule count="1" name="rule_Acknowledgement_Correct_Spelling_Retain_s"/>
+  <rule count="1" name="rule_CorrspondenceText_CorrespondenceTo"/>
+  <rule count="2" name="rule_italicize_p"/>
+  <rule count="4" name="rule_ndash_numRangeintableentry-Parenth"/>
+  <rule count="8" name="rule_spellOut_USPostalCode_and_stateAbbreviations"/>
+  <rule count="52" name="tableCaptionsInTitleCase"/>
+  <rule count="5" name="tableHeaderToTitleCase"/>
+  <rule count="13" name="UCA_rule_delete_publisher_location_inref_r"/>
+  <rule count="3" name="UncitedRefsFigTblBoxRaiseQueryAndCreateUncitedSectionPara"/>
+  <rule count="1" name="useHellipWithLastAuthorWhenMoreThanTwentyOneAuthorsAppear"/>
+  <rule count="38" name="useSymbolsInTblfootnoteDesignators_1"/>
+  <rule count="7" name="abbreStyleInTblFigs"/>
+  <rule count="1" name="deleteParastyle"/>
+  <rule count="1" name="RRHShouldBeInFullCaps_1"/>
+  <rule count="3" name="rule-Aff-InsertUSAafterPostalcode-1"/>
+  <rule count="55" name="rule-deleteIssueNumber"/>
+  <rule count="1" name="rule-expandMinuteAlways_2"/>
+  <rule count="1" name="rule_CorrespondenceText_AddrCorrTo_without_colon"/>
+  <rule count="6" name="rule_Do not use leading zeros"/>
+  <rule count="3" name="rule_missingCountryName_1"/>
+  <rule count="2" name="rule_remove_ital_operators"/>
+  <rule count="20" name="rule_toUseNumeralsWithReplaceOptionTenToNinetyNine"/>
+  <rule count="1" name="UCA_rule_default_query_twitter_1"/>
+  <rule count="2" name="useSymbolsInTblfootnoteDesignators_1_ACETool_queryForEmptyColumnHeadInTable"/>
+  <rule count="3" name="rule_delete_AcceptDate"/>
+  <rule count="3" name="rule_delete_ReceivedDate"/>
+</rules>

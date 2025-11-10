@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Modified Changes - Total Rules: 18 -->
+<rules>
+  <rule count="403" name="abbreviateJournalTitleWithdots"/>
+  <rule count="1" name="combineSameAuthorDifferentYearCitationsByRemovingRepeatedAuthorNames"/>
+  <rule count="2" name="LE_rule_Do not use punctuations before opening bracket"/>
+  <rule count="1" name="LE_rule_Do_not_use_punctuations_before_opening_bracket_within_bracket"/>
+  <rule count="1" name="LE_rule_remove_punctuations_before_opening_bracket_Insert_after_closing_bracket_withoutListA"/>
+  <rule count="2" name="LE_SpellCheckBasedonDictionary_SmartSpell"/>
+  <rule count="1" name="rule-Further reading"/>
+  <rule count="3" name="rule_Change the ordinals in superscript to online-1"/>
+  <rule count="3" name="rule_Change the ordinals in superscript to online_IDSA_5"/>
+  <rule count="1" name="rule_insert_dot_after_refcitation_if_no_punctuationpresent_before"/>
+  <rule count="1" name="rule_insert_endDot_Ended_With_Word"/>
+  <rule count="2" name="rule_SpelloutOrdinals_1"/>
+  <rule count="1" name="UCA_ruleToChange_FurtherReading_TitleCase"/>
+  <rule count="1" name="rule_ndash_decimalNumRange1_rsc"/>
+  <rule count="1" name="rule_ndash_decimalNumRange2_rsc"/>
+  <rule count="16" name="rule_toChange_closing_and_opening_parenth_to_semicolon_between_IndirectCitation"/>
+  <rule count="5" name="changeEtalPatternToet_al"/>
+  <rule count="5" name="Use full stops after abbreviations in bibitem 2_italics"/>
+</rules>

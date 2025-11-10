@@ -1,0 +1,7 @@
+FileName|Rule|Highlight|ParaStyle|CharStyle|Find|Replace|Input|Output|Stage|Status|Suggestion
+AA_11119_tud|abbreviateJournalTitleWithdots1|FALSE|bibitem|stl|a|A|ainput1|aoutput1|midprocess|done|sug1
+AA_11119_tud|abbreviateJournalTitleWithdots1|FALSE|bibitem|stl|b|B|binput1|boutput1|midprocess|done|sug2
+AA_11119_tud|abbreviateJournalTitleWithdots1|TRUE|bibitem|stl|c|C|cinput1|coutput1|midprocess|done|sug3
+AA_11119_tud|abbreviateJournalTitleWithdots1|FALSE|bibitem|stl|d|D|dinput1|doutput1|midprocess|done|sug4
+AA_11119_tud|abbreviateJournalTitleWithdots1|FALSE|bibitem|stl|e|E|einput1|eoutput1|midprocess|done|sug5
+AA_11120_tud|abbreviateJournalTitleWithdots2|FALSE|bibitem|stl|f|F|finput1|foutput1|midprocess|done|sug6

@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'>
+<title>CSV Comparison Report</title>
+<style>
+:root{--accent:#0b64d6;--muted:#6b7280;--bg:#f3f6fb}
+body{font-family:Inter,Segoe UI,Arial,sans-serif;background:var(--bg);margin:0;padding:20px}
+h1{font-size:20px;margin:0 0 14px;color:#111}
+.container{max-width:1200px;margin:0 auto}
+.card-board{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:18px}
+.card{flex:1;min-width:160px;background:#fff;border-radius:10px;padding:14px 16px;box-shadow:0 6px 18px rgba(12,38,63,0.06)}
+.card .label{font-size:13px;color:var(--muted)} .card .value{font-size:20px;font-weight:600;color:var(--accent);margin-top:6px}
+.tabs{display:flex;gap:8px;margin:14px 0 10px}
+.tab{padding:8px 12px;border-radius:8px;background:#e6eefc;color:#0b64d6;cursor:pointer;font-weight:600}
+.tab.active{background:var(--accent);color:white}
+.panel{display:none}
+.panel.active{display:block}
+.controls{display:flex;gap:10px;align-items:center;justify-content:space-between;margin-bottom:8px}
+.controls .left{display:flex;gap:8px;align-items:center}
+table{width:100%;border-collapse:collapse;background:#fff;border-radius:8px;overflow:hidden}
+th,td{padding:8px 10px;border-bottom:1px solid #eff6ff;font-size:13px}
+thead th{background:linear-gradient(180deg,#0b64d6,#0b64d6);color:#fff;position:sticky;top:0}
+tbody tr:nth-child(even){background:#fbfdff}
+.empty {color:#9aa4b2}
+.pagination{display:flex;gap:6px;align-items:center}
+.page-btn{padding:6px 8px;border-radius:6px;border:1px solid #e2e8f0;background:white;cursor:pointer}
+.page-btn.active{background:var(--accent);color:white}
+.footer-note{font-size:12px;color:var(--muted);margin-top:8px}
+</style>
+</head>
+<body>
+<div class='container'>
+<h1>CSV Comparison Report</h1>
+<div class='card-board'>
+<div class='card'><div class='label'>Matched Rules</div><div class='value'>27</div></div>
+<div class='card'><div class='label'>Rules Unmatched</div><div class='value'>0</div></div>
+<div class='card'><div class='label'>Missed Rules</div><div class='value'>6</div></div>
+<div class='card'><div class='label'>New Rules</div><div class='value'>3</div></div>
+<div class='card'><div class='label'>Total Rows (Expected + Output)</div><div class='value'>63</div></div>
+</div>
+<div class='tabs'>
+<div class='tab active' data-target='panel-matched'>Rules Matched</div>
+<div class='tab' data-target='panel-unmatched'>Rules Unmatched</div>
+<div class='tab' data-target='panel-missed'>Missed Rules</div>
+<div class='tab' data-target='panel-new'>New Rules</div>
+</div>
+<div id='panel-matched' class='panel active'>
+<div class='controls'>
+<div class='left'><label>Show <select class='perpage' onchange='onPerPageChange(event)'><option>10</option><option>20</option><option>50</option><option>100</option></select> rows</label>
+<label><input type='search' class='search' placeholder='Search...'></label>
+</div>
+<div class='right'><div class='pagination' aria-label='pagination'></div></div>
+</div>
+<div style='overflow:auto;border-radius:8px'>
+<table class='data-table'><thead><tr><th>#</th><th>FileName</th><th>Rule</th><th>Highlight</th><th>ParaStyle</th><th>CharStyle</th><th>Find</th><th>Replace</th><th>Input</th><th>Output</th><th>Stage</th><th>Status</th><th>Suggestion</th></tr></thead><tbody></tbody></table>
+</div>
+</div>
+<div id='panel-unmatched' class='panel'>
+<div class='controls'>
+<div class='left'><label>Show <select class='perpage' onchange='onPerPageChange(event)'><option>10</option><option>20</option><option>50</option><option>100</option></select> rows</label>
+<label><input type='search' class='search' placeholder='Search...'></label>
+</div>
+<div class='right'><div class='pagination' aria-label='pagination'></div></div>
+</div>
+<div style='overflow:auto;border-radius:8px'>
+<table class='data-table'><thead><tr><th>#</th><th>FileName</th><th>Rule</th><th>Highlight</th><th>ParaStyle</th><th>CharStyle</th><th>Find</th><th>Replace</th><th>Input</th><th>Output</th><th>Stage</th><th>Status</th><th>Suggestion</th></tr></thead><tbody></tbody></table>
+</div>
+</div>
+<div id='panel-missed' class='panel'>
+<div class='controls'>
+<div class='left'><label>Show <select class='perpage' onchange='onPerPageChange(event)'><option>10</option><option>20</option><option>50</option><option>100</option></select> rows</label>
+<label><input type='search' class='search' placeholder='Search...'></label>
+</div>
+<div class='right'><div class='pagination' aria-label='pagination'></div></div>
+</div>
+<div style='overflow:auto;border-radius:8px'>
+<table class='data-table'><thead><tr><th>#</th><th>FileName</th><th>Rule</th><th>Highlight</th><th>ParaStyle</th><th>CharStyle</th><th>Find</th><th>Replace</th><th>Input</th><th>Output</th><th>Stage</th><th>Status</th><th>Suggestion</th></tr></thead><tbody></tbody></table>
+</div>
+</div>
+<div id='panel-new' class='panel'>
+<div class='controls'>
+<div class='left'><label>Show <select class='perpage' onchange='onPerPageChange(event)'><option>10</option><option>20</option><option>50</option><option>100</option></select> rows</label>
+<label><input type='search' class='search' placeholder='Search...'></label>
+</div>
+<div class='right'><div class='pagination' aria-label='pagination'></div></div>
+</div>
+<div style='overflow:auto;border-radius:8px'>
+<table class='data-table'><thead><tr><th>#</th><th>FileName</th><th>Rule</th><th>Highlight</th><th>ParaStyle</th><th>CharStyle</th><th>Find</th><th>Replace</th><th>Input</th><th>Output</th><th>Stage</th><th>Status</th><th>Suggestion</th></tr></thead><tbody></tbody></table>
+</div>
+</div>
+<script>
+const DATA_MATCHED = [["AA_11120_tud,abbreviateJournalTitleWithdots2,FALSE,bibitem,stl,f,F,finput2,foutput1,midprocess,done,sug6","","","","","","","","","","",""],["AA_11120_tud,abbreviateJournalTitleWithdots2,FALSE,bibitem,stl,f,F,finput2,foutput1,midprocess,done,sug6","","","","","","","","","","",""],["AA_11120_tud,abbreviateJournalTitleWithdots2,FALSE,bibitem,stl,f,F,finput2,foutput1,midprocess,done,sug6","","","","","","","","","","",""],["AA_11120_tud,abbreviateJournalTitleWithdots2,FALSE,bibitem,stl,j,J,einput2,joutput1,midprocess,done,sug10","","","","","","","","","","",""],["AA_11120_tud,abbreviateJournalTitleWithdots2,FALSE,bibitem,stl,j,J,einput2,joutput1,midprocess,done,sug10","","","","","","","","","","",""],["AA_11120_tud,abbreviateJournalTitleWithdots2,FALSE,bibitem,stl,j,J,einput2,joutput1,midprocess,done,sug10","","","","","","","","","","",""],["AA_11120_tud,abbreviateJournalTitleWithdots2,TRUE,bibitem,stl,h,H,cinput2,houtput1,midprocess,done,sug8","","","","","","","","","","",""],["AA_11120_tud,abbreviateJournalTitleWithdots2,TRUE,bibitem,stl,h,H,cinput2,houtput1,midprocess,done,sug8","","","","","","","","","","",""],["AA_11120_tud,abbreviateJournalTitleWithdots2,TRUE,bibitem,stl,h,H,cinput2,houtput1,midprocess,done,sug8","","","","","","","","","","",""],["AA_11119_tud,abbreviateJournalTitleWithdots1,TRUE,bibitem,stl,c,C,cinput1,coutput1,midprocess,done,sug3","","","","","","","","","","",""],["AA_11119_tud,abbreviateJournalTitleWithdots1,TRUE,bibitem,stl,c,C,cinput1,coutput1,midprocess,done,sug3","","","","","","","","","","",""],["AA_11119_tud,abbreviateJournalTitleWithdots1,TRUE,bibitem,stl,c,C,cinput1,coutput1,midprocess,done,sug3","","","","","","","","","","",""],["AA_11119_tud,abbreviateJournalTitleWithdots1,FALSE,bibitem,stl,d,D,dinput1,doutput1,midprocess,done,sug4","","","","","","","","","","",""],["AA_11119_tud,abbreviateJournalTitleWithdots1,FALSE,bibitem,stl,d,D,dinput1,doutput1,midprocess,done,sug4","","","","","","","","","","",""],["AA_11119_tud,abbreviateJournalTitleWithdots1,FALSE,bibitem,stl,d,D,dinput1,doutput1,midprocess,done,sug4","","","","","","","","","","",""],["AA_11119_tud,abbreviateJournalTitleWithdots1,FALSE,bibitem,stl,b,B,binput1,boutput1,midprocess,done,sug2","","","","","","","","","","",""],["AA_11119_tud,abbreviateJournalTitleWithdots1,FALSE,bibitem,stl,b,B,binput1,boutput1,midprocess,done,sug2","","","","","","","","","","",""],["AA_11119_tud,abbreviateJournalTitleWithdots1,FALSE,bibitem,stl,b,B,binput1,boutput1,midprocess,done,sug2","","","","","","","","","","",""],["AA_11119_tud,abbreviateJournalTitleWithdots1,FALSE,bibitem,stl,e,E,einput1,eoutput1,midprocess,done,sug5","","","","","","","","","","",""],["AA_11119_tud,abbreviateJournalTitleWithdots1,FALSE,bibitem,stl,e,E,einput1,eoutput1,midprocess,done,sug5","","","","","","","","","","",""],["AA_11119_tud,abbreviateJournalTitleWithdots1,FALSE,bibitem,stl,e,E,einput1,eoutput1,midprocess,done,sug5","","","","","","","","","","",""],["AA_11119_tud,abbreviateJournalTitleWithdots1,FALSE,bibitem,stl,a,A,ainput1,aoutput1,midprocess,done,sug1","","","","","","","","","","",""],["AA_11119_tud,abbreviateJournalTitleWithdots1,FALSE,bibitem,stl,a,A,ainput1,aoutput1,midprocess,done,sug1","","","","","","","","","","",""],["AA_11119_tud,abbreviateJournalTitleWithdots1,FALSE,bibitem,stl,a,A,ainput1,aoutput1,midprocess,done,sug1","","","","","","","","","","",""],["AA_11120_tud,abbreviateJournalTitleWithdots2,FALSE,bibitem,stl,i,I,dinput2,ioutput1,midprocess,done,sug9","","","","","","","","","","",""],["AA_11120_tud,abbreviateJournalTitleWithdots2,FALSE,bibitem,stl,i,I,dinput2,ioutput1,midprocess,done,sug9","","","","","","","","","","",""],["AA_11120_tud,abbreviateJournalTitleWithdots2,FALSE,bibitem,stl,i,I,dinput2,ioutput1,midprocess,done,sug9","","","","","","","","","","",""]];
+const DATA_UNMATCHED = [];
+const DATA_MISSED = [["AA_11120_tud,abbreviateJournalTitleWithdots2,FALSE,bibitem,stl,j,J,einput2,joutput1,midprocess,done,sug11","","","","","","","","","","",""],["AA_11120_tud,abbreviateJournalTitleWithdots2,FALSE,bibitem,stl,j,J,einput2,joutput1,midprocess,done,sug11","","","","","","","","","","",""],["AA_11120_tud,abbreviateJournalTitleWithdots2,FALSE,bibitem,stl,j,J,einput2,joutput1,midprocess,done,sug11","","","","","","","","","","",""],["AA_11120_tud,abbreviateJournalTitleWithdots2,FALSE,bibitem,stl,g,G,iinput2,goutput1,midprocess,done,sug7","","","","","","","","","","",""],["AA_11120_tud,abbreviateJournalTitleWithdots2,FALSE,bibitem,stl,g,G,iinput2,goutput1,midprocess,done,sug7","","","","","","","","","","",""],["AA_11120_tud,abbreviateJournalTitleWithdots2,FALSE,bibitem,stl,g,G,iinput2,goutput1,midprocess,done,sug7","","","","","","","","","","",""]];
+const DATA_NEW = [["AA_111120_tud,abbreviateJournalTitleWithdots2,FALSE,bibitem,stl,j,J,einput2,joutput1,midprocess,done,sug10","","","","","","","","","","",""],["AA_111120_tud,abbreviateJournalTitleWithdots2,FALSE,bibitem,stl,j,J,einput2,joutput1,midprocess,done,sug10","","","","","","","","","","",""],["AA_111120_tud,abbreviateJournalTitleWithdots2,FALSE,bibitem,stl,j,J,einput2,joutput1,midprocess,done,sug10","","","","","","","","","","",""]];
+function renderTable(panelId, data){
+  const panel = document.getElementById(panelId);
+  const perpageEl = panel.querySelector('.perpage');
+  const searchEl = panel.querySelector('.search');
+  const pageBox = panel.querySelector('.pagination');
+  const tbody = panel.querySelector('tbody');
+  let perPage = parseInt(perpageEl.value||10,10);
+  let page = 1;
+  let filtered = data.slice();
+  function fillPlaceholders(renderedRows){
+    const result = renderedRows.slice();
+    while(result.length < 10) result.push(new Array(12).fill(''));
+        return result;
+  }
+  function applyFilter(){
+    const q = (searchEl.value||'').trim().toLowerCase();
+    if(q===''){ filtered = data.slice(); } else {
+      filtered = data.filter(r => r.join('|').toLowerCase().includes(q));
+    }
+    page = 1; render();
+  }
+  function render(){
+    perPage = parseInt(perpageEl.value||10,10);
+    const totalRows = Math.max(filtered.length, 10);
+    const pageCount = Math.max(1, Math.ceil(totalRows / perPage));
+    if(page > pageCount) page = pageCount;
+    const start = (page-1)*perPage;
+    const end = start + perPage;
+    // build slice and ensure placeholders to show at least 10 rows in first page
+    const slice = filtered.slice(start, end);
+    const displayRows = (slice.length < perPage && filtered.length < 10 && page===1) ? fillPlaceholders(slice) : slice;
+    // render tbody
+    tbody.innerHTML = '';
+    for(let i=0;i<displayRows.length;i++){
+      const row = displayRows[i];
+      const tr = document.createElement('tr');
+      // index cell: absolute index
+      const idxTd = document.createElement('td');
+      idxTd.textContent = (start + i + 1) > filtered.length ? '' : (start + i + 1);
+      tr.appendChild(idxTd);
+      for(let c=0;c<12;c++){
+        const td = document.createElement('td');
+        td.innerHTML = (row[c]===undefined || row[c]==='') ? '&nbsp;' : escapeHtml(row[c]);
+        tr.appendChild(td);
+      }
+      tr.addEventListener('click', ()=> tr.classList.toggle('selected'));
+      tbody.appendChild(tr);
+    }
+    // pagination buttons
+    pageBox.innerHTML = '';
+    const left = document.createElement('div'); left.style.display='inline-block';
+    const prev = document.createElement('button'); prev.textContent='Prev'; prev.className='page-btn'; prev.disabled = page===1;
+    prev.onclick = ()=>{ if(page>1){ page--; render(); } };
+    left.appendChild(prev);
+    pageBox.appendChild(left);
+    const center = document.createElement('div'); center.style.display='inline-block'; center.style.margin='0 8px';
+    for(let p=1;p<=pageCount;p++){
+      const b = document.createElement('button'); b.textContent = p; b.className='page-btn' + (p===page? ' active':'');
+      b.onclick = (()=>{ const pn = p; return ()=>{ page = pn; render(); }; })();
+      center.appendChild(b);
+    }
+    pageBox.appendChild(center);
+    const next = document.createElement('button'); next.textContent='Next'; next.className='page-btn'; next.disabled = page===pageCount;
+    next.onclick = ()=>{ if(page<pageCount){ page++; render(); } };
+    pageBox.appendChild(next);
+  }
+  perpageEl.addEventListener('change', ()=>{ page=1; render(); });
+  searchEl.addEventListener('input', ()=>{ applyFilter(); });
+  // initial render
+  render();
+}
+function escapeHtml(s){ return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/\"/g,'&quot;').replace(/\'/g,'&#39;'); }
+function onPerPageChange(e) { /* stub for potential future */ }
+document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));t.classList.add('active');document.querySelectorAll('.panel').forEach(p=>p.classList.remove('active'));document.getElementById(t.dataset.target).classList.add('active');}));
+renderTable('panel-matched', DATA_MATCHED);
+renderTable('panel-unmatched', DATA_UNMATCHED);
+renderTable('panel-missed', DATA_MISSED);
+renderTable('panel-new', DATA_NEW);
+</script>
+<div class='footer-note'>Tip: use the search box in each panel to filter rows. Click a row to highlight it.</div>
+</div></body></html>

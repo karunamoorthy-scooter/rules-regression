@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules>
+<rule count="1" name="RequireUpperCamelCaseForClassNames"/>
+<rule count="2" name="expandJournalTitle"/>
+<rule count="3" name="rule-removedot_at_end of table caption-2"/>
+</rules>
